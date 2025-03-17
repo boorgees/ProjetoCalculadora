@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    gap: 1em;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.btnsStl {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.visorStl {
+    border: 2px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column: span 2;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+    text-align: right;
+}
+
+.nmrsStl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: stretch;
+    padding: 2%;
+}
+
+.oprsStl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+}
+
+.img {
+    max-width: 10rem;
+    max-height: 10rem;
+    grid-column: span 3;
+    padding: 0 0 0 15%;
+}
+
+#nmr0 {
+    grid-column: span 3;
+}
+
+#oprClr,
+#oprSoma {
+    grid-column: span 2;
+}
