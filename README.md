@@ -2,6 +2,8 @@
 
 Este projeto é uma calculadora simples desenvolvida com HTML, CSS e JavaScript. A calculadora permite realizar operações matemáticas básicas como adição, subtração, multiplicação e divisão. Além disso, possui um design responsivo e estilizado.
 
+🔗 **Acesse o projeto:** [Clique aqui](https://projeto-calculadora-snowy-six.vercel.app/)
+
 ## ⚙️ Funcionalidades
 - ➕ Adição, ➖ subtração, ✖️ multiplicação e ➗ divisão
 - 🧹 Limpeza do visor
